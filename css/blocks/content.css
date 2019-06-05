@@ -1,0 +1,20 @@
+.content__wrap{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,462px));
+    grid-gap: 57px;
+    margin-top:85px;
+    margin-bottom:85px;
+
+}
+
+.content__link{
+    grid-column: span 1;
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom: 35px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: url("../../img/1.jpg") no-repeat #000;
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+    }
